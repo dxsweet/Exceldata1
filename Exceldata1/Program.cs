@@ -143,7 +143,7 @@ internal class Program
                 {
                     if(dtxd == 1)
                     {
-                        Console.WriteLine("北京时间:"+dtx.ToString("yyyyMMddHH") + "  UTC时间:"+ dtxutc.ToString("yyyyMMddHH") + "  没有数据");
+                        Console.WriteLine("北京时间:"+dtx.ToString("yyyyMMddHH") + "  UTC时间:"+ dtxutc.ToString("yyyyMMddHH") + "  数据错误,请编辑td1.txt");
                         continue;
                     }
 
